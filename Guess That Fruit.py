@@ -150,10 +150,10 @@ def main():
         guess = str(input("MEDIUM: Guess a fruit that colored yellow? \0001F619")) 
          
         if x == guess: 
-            print("You guessed {}. Hurray! Correct! \U0001F601".format(guess)) 
+            print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess)) 
             break 
         else: 
-            print("You guessed {}. Come On! !\U0001F612".format(guess)) 
+            print("\nYou guessed {}. Come On! !\U0001F612".format(guess)) 
 
     fruit = [ 
         "Strawberry", 
@@ -170,10 +170,10 @@ def main():
         guess = str(input("MEDIUM: Guess a fruit that colored red? \0001F619")) 
          
         if x == guess: 
-            print("You guessed {}. Hurray! Correct! \U0001F601".format(guess)) 
+            print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess)) 
             break 
         else: 
-            print("You guessed {}. Come On! !\U0001F612".format(guess)) 
+            print("\nYou guessed {}. Come On! !\U0001F612".format(guess)) 
 
     fruit = [ 
         "Grape", 
@@ -190,10 +190,10 @@ def main():
         guess = str(input("MEDIUM: Guess a fruit that colored green? \0001F619")) 
          
         if x == guess: 
-            print("You guessed {}. Hurray! Correct! \U0001F601".format(guess)) 
+            print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess)) 
             break 
         else: 
-            print("You guessed {}. Come On! !\U0001F612".format(guess)) 
+            print("\nYou guessed {}. Come On! !\U0001F612".format(guess)) 
 
     fruit = [ 
         "Papaya", 
@@ -210,10 +210,10 @@ def main():
         guess = str(input("MEDIUM: Guess a fruit that colored orange? \0001F619")) 
          
         if x == guess: 
-            print("You guessed {}. Hurray! Correct! \U0001F601".format(guess)) 
+            print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess)) 
             break 
         else: 
-            print("You guessed {}. Come On! !\U0001F612".format(guess))
+            print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
 
     print("\n Next level ! \U0001F601")
 
@@ -298,6 +298,8 @@ def main():
                         break
                     else:
                         print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
+                        
+   print("CONGRATULATION ! YOU DID IT !")
 main()
 
 
