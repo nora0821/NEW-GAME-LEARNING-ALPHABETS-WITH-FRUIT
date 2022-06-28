@@ -299,7 +299,7 @@ def main():
                     else:
                         print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
                         
-   print("CONGRATULATION ! YOU DID IT !")
+                    print("\nCONGRATULATION ! YOU DID IT \U0001F601 !")
 main()
 
 
