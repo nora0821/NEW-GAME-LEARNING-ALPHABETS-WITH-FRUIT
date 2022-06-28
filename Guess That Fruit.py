@@ -298,8 +298,7 @@ def main():
                         break
                     else:
                         print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
-                        
-                    print("\nCONGRATULATION ! YOU DID IT \U0001F601 !")
+                        print("\nCONGRATULATION ! YOU DID IT \U0001F601 !")
 main()
 
 
